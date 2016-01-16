@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    color: #DADFE1;
+    text-align: justify;
+    background: #3E4651;
+}
+
+.fullscreen {
+    height: 100vh;
+}
+
+.outer {
+    position: relative;
+}
+
+.inner {    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.margin-bottom {
+    margin-bottom: 50px;
+}
+
+.section-header {
+    padding-right: 15px;
+    padding-bottom: .2em;
+    margin-bottom: .5em;
+    border-bottom: 1px dotted rgba(189, 195, 199, .2);
+}
+
+
+.back-to-top {
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    display:none;
+}
+
+.social {
+    text-align: center;
+    font-size: 50px;
+}
+
+/*---
+Navigation Menu
+-------------*/
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ECF0F1;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #DADFE1;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #90C695;
+}
+
+.navbar-default {
+    background-color: #3E4651;
+}
+
+.navbar {
+    border: none;
+    border-bottom: 1px dotted rgba(189, 195, 199, .2);
+    border-radius: 0;
+}
+
+
+/*---
+Landing Page
+----------*/
+
+.landing {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+.tagline {
+    font-size: 2em;
+}
+
+.tagline .fa-cog {
+    font-size: .7em;
+    color: #87D37C;
+}
+
+
+/*---
+About
+---*/
+
+
+/*---
+Contact Form
+----------*/
+
+.skills img {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    color: #fff;
+    background: rgba(191, 191, 191,.2);
+    border: 0;
+    border-radius: 0;
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px dotted rgba(189, 195, 199, .2);
+}
+
+footer p {
+    margin: 0;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+/*---
+Responsive
+--------*/
+
+@media screen and (max-width:479px) {}
+
+@media screen and (min-width:480px) and (max-width:767px) {}
+
+@media screen and (min-width:768px) and (max-width:991px) {}
+
+@media screen and (min-width:992px) and (max-width: 1199px) {}
+
+@media(min-width:1200px) {}
